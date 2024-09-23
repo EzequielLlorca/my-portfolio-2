@@ -253,7 +253,7 @@ h1{
 /* ---------separator sections---------- */
 
 .separator_sections{
-    width: 100dvw;
+    width: 100%;
     height: 100dvh;
     background-position: cover;
     background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/foto-perfil.png);
@@ -483,9 +483,12 @@ button:hover {
     background-position: left;
     }
 
-    .separator_sections{background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/mi-foto.jpg);
+    .separator_sections{
+        width: 100%;
+        background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/mi-foto.jpg);
         background-attachment: fixed;
         background-size: cover;
-        background-position: left;}
+        background-position: left;
+    }
 
 }
