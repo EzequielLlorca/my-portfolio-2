@@ -132,7 +132,7 @@ h1{
 .navbar{
     display: none;
     background-color: var(--bg-color);
-    position: sticky;
+    position: absolute;
     height: 100vh;
     width: 100vw;
     top: 0;
