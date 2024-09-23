@@ -169,7 +169,7 @@ h1{
 .conteiner{
     max-width: 100vw;
     min-height: 100vh;
-    background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/mi-foto.jpg);
+    background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/foto-perfil.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: left;
@@ -247,7 +247,19 @@ h1{
 }
 
 .service_item-3{
-    background-image: url(imagenes-portfolio-2/mi-foto.jpg);
+    background-image: url(imagenes-portfolio-2/foto-perfil.png);
+}
+
+/* ---------separator sections---------- */
+
+.separator_sections{
+    width: 100dvw;
+    height: 100dvh;
+    background-position: cover;
+    background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/foto-perfil.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: rigt;
 }
 
 
@@ -463,5 +475,17 @@ button:hover {
     .header{
         width: 95dvw;
     }
+
+    .conteiner{
+    background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/mi-foto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+    }
+
+    .separator_sections{background-image: linear-gradient(#0009, #0009), url(imagenes-portfolio-2/mi-foto.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: left;}
 
 }
