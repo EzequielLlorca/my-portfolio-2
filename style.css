@@ -43,9 +43,9 @@ body, section, header, div, main,footer, ul, nav, a, li, label, p{
     border-radius: 20px;
     width: 100%;
     animation-name: llenar-barra;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-fill-mode: both;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 /* HEADER */
@@ -155,12 +155,12 @@ h1{
     color: var(--color);
     text-decoration: none;
     font-size: 30px;
+    padding: 10px;
 }
 
 .navbar__items a:hover{
     outline: 2px solid var(--color);
     border-radius: 20px;
-    padding: 5px;
 }
 
 
@@ -222,7 +222,7 @@ h1{
 
 .service__container{
         width: 100%;
-        gap: 8px;
+        gap: 10px;
 }
 
 .service_item-1, .service_item-2, .service_item-3, .service_item-4{
@@ -236,10 +236,12 @@ h1{
 
 .service_item-1{
     background-image: url(imagenes-portfolio-2/portfolio-1.JPG);
+    
 }
 
 .service_item-2{
     background-image: url(imagenes-portfolio-2/recti-mundo.JPG);
+   
 }
 
 .service_item-4{
@@ -344,6 +346,7 @@ button:hover {
 
 .contact ul{
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .li {
@@ -423,7 +426,7 @@ button:hover {
     }
 
     .navbar__items a:hover{
-        transition: outline 1s ease-in-out, padding 1s ease-in-out;
+        transition: outline linear;
     }
 
     .bar__logo{
